@@ -1,4 +1,4 @@
-def area(a : int|float, b : int|float, c : int|float) -> int|float:
+def area(a : int|float, b : int|float, c : int|float) -> float:
     '''
     Вычисляет площадь треугольника со сторонами a, b, c
 
