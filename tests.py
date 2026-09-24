@@ -1,0 +1,4 @@
+from circle import TestCircleMethods
+from square import TestSquareMethods
+from rectangle import TestRectangleMethods
+from triangle import TestTriangleMethods
