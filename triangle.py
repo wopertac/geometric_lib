@@ -41,7 +41,8 @@ class TestTriangleMethods(unittest.TestCase):
         ([12.3456, 15.7891, 19.1112], 97.03551927471611, float),
         ([1234.56789101, 2345.67891011, 3456.78910112], 762757.5015345167, float),
         ([-1, -1, -1], None, type(None)),
-        ([-3.5, -4.3, -6,4], None, type(None))
+        ([-3.5, -4.3, -6,4], None, type(None)),
+        ([1000, 1, 2], None, type(None))
     ]
 
     tests_perimeter = [
@@ -52,7 +53,8 @@ class TestTriangleMethods(unittest.TestCase):
         ([12.3456, 15.7891, 19.1112], 47.2459, float),
         ([1234.56789101, 2345.67891011, 3456.78910112], 7037.03590224, float),
         ([-1, -1, -1], None, type(None)),
-        ([-3.5, -4.3, -6,4], None, type(None))
+        ([-3.5, -4.3, -6,4], None, type(None)),
+        ([1000, 1, 2], None, type(None))
     ]
 
     def test_triangle_area(self):
