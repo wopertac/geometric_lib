@@ -44,7 +44,7 @@ class TestSquareMethods(unittest.TestCase):
         ([3], 12, int),
         ([6], 24, int),
         ([100], 400, int),
-        ([3.5], 14, int),
+        ([3.5], 14, float),
         ([25.4346], 101.7384, float),
         ([1028.492749027], 4113.970996108, float),
         ([-1], None, type(None)),
